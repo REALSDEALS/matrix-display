@@ -1,0 +1,22 @@
+# Matrix | .gitignore
+
+## Python Cache Files:
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Venv Files for Local Testing:
+venv/
+env/
+.venv/
+
+# Env (if an API module will be added later):
+.env
+
+# OS Generated Files (Template):
+.DS_Store
+
+# IDE and Editor folders (Template):
+.vscode/
+.idea/
+*.swp
