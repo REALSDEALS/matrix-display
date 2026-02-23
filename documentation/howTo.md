@@ -49,6 +49,7 @@ pip install -r requirements.txt
 ```
 
 **4. Starting the Script:**
+
 For Linux or MacOS:
 ```bash
 python3 app.py

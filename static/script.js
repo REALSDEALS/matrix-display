@@ -21,6 +21,8 @@ async function fetchContributions() {
         }
 
         nameDisplay.innerText = data.username;
+        // Sorting Chronologically:
+        data.contributions.sort((a, b) => new Date(a.date) - new Date(b.date));
 
         // Create a Pixel Block for each Day:
         data.contributions.forEach(day => {
