@@ -16,7 +16,7 @@ A responsive, self-hosted web dashboard that turns any screen—from (but specif
 There are some ways or manners that you could go about it, you can run this yourself. See the guide on how to set this up via Docker, locally on your pc or server, or on a Raspberry Pi in Kiosk mode.
 - **[Click here to read the Deployment Guide (HowTo.md)](documentation/howTo.md)** 
 
-## Disclaimer && Contribution
+## Disclaimer & Contribution
 I made this project for myself so I am contempt with how the design looks right now but if there are cool and nice ideas or optimizations, feel free to commit! 
 
 ## License
