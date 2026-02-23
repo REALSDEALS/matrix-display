@@ -1,0 +1,26 @@
+<!--Matrix | index.html | REALSDEALS-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="controls">
+        <input type="text" id="usernameInput" placeholder="Enter GitHub Username..." value="">
+        <button onclick="fetchContributions()">Load Matrix</button>
+        <button onclick="toggleFullScreen()" style="background: #4b6584;">⛶ Fullscreen</button>
+    </div>
+    
+    <div class="matrix-container">
+        <div id="username-display" class="retro-text"></div>
+        <div id="grid" class="contribution-grid">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
