@@ -51,4 +51,8 @@ function toggleFullScreen() {
 }
 
 // Loading Defaults:
-window.onload = fetchContributions;
+window.onload = () => {
+    fetchContributions();
+    // Auto Refresh Every Hour.
+    setInterval(fetchContributions, 3600000); 
+};
