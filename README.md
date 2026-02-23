@@ -2,7 +2,7 @@
 
 A responsive, self-hosted web dashboard that turns any screen—from (but specific) a 7-inch Raspberry Pi display to a desktop monitor—into a dedicated, retro-modern GitHub contribution clock.
 
-![Screenshot](https://github.com/REALSDEALS/matrix-display/image/matrixExample.png)
+![matrixExample](https://github.com/REALSDEALS/matrix-display/image/matrixExample.png)
 
 ## Features
 * **No API Keys Required:** Simply enter a GitHub username and it instantly fetches public contribution data using a custom built-in scraper.
